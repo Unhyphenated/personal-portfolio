@@ -157,8 +157,41 @@ body.dark-theme {
 }
 
 /*=============== HEADER & NAV ===============*/
+.header {
+  width: 100%;
+  position: fixed;
+  bottom: 2rem;
+  left: 0;
+  z-index: var(--z-fixed);
+}
 
+.nav {
+  height: calc(var(--header-height) + .5rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--body-color);
+  box-shadow: 0 4px 20px hsla(207, 48%, 72%, 0);
+  padding-inline: 1.5rem;
+  border-radius: 3rem;
+}
 
+.nav__logo,
+.nav__toggle,
+.nav__close {
+  color: var(--title-color);
+}
+
+.nav__logo {
+  font-family: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+.nav__toggle {
+  display: flex;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
 /* Show menu */
 
 
