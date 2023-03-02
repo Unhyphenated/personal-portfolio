@@ -199,7 +199,7 @@ body.dark-theme {
     width: 88%;
     left: 0;
     right: 0;
-    bottom: 2rem;
+    bottom: -60%;
     margin: 0 auto;
     background-color: var(--body-color);
     box-shadow: 0 4px 20px hsla(207, 24%, 35%, .1);
@@ -227,10 +227,23 @@ body.dark-theme {
 
 .nav__link:hover {
   color: var(--title-color);
-  
+}
+
+.nav__link i{
+  font-size: 1.25rem;
+}
+
+.nav__close {
+  position: absolute;
+  right: 1.5rem;
+  bottom: .7rem;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 /* Show menu */
-
+.show-menu {
+  bottom: 2rem;
+}
 
 /* Active link */
 
