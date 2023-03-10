@@ -24,8 +24,8 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Lora', sans-serif;
-  --title-font: 'Montserrat', serif;
+  --body-font: 'Roboto', sans-serif;
+  --title-font: 'Lora', serif;
   --biggest-font-size: 1.5rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
