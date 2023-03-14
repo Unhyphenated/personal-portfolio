@@ -265,6 +265,16 @@ body.dark-theme {
   margin-bottom: .5rem;
 }
 
+.home__blob {
+  position: relative;
+  width: 200px;
+  height: 290px;
+  background-color: var(--body-color);
+  border: 2px solid var(--text-color-light);
+  justify-self: center;
+  border-radius: 6.25rem;
+  place-items: center;
+}
 /*=============== SKILLS ===============*/
 
 
