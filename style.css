@@ -327,6 +327,21 @@ body.dark-theme {
   color: var(--text-color-light);
   margin-bottom: 1rem;
 }
+
+.home__info__info-description,
+.home__info-number {
+  font-family: var(--title-font);
+  color: var(--title-color);
+}
+
+.home__info__info-description {
+  padding-right: 4rem;
+}
+
+.home__info-number {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-semi-bold);
+}
 /*=============== SKILLS ===============*/
 
 
